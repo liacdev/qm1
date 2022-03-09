@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: Question 1
   m_EditorClassIdentifier: 
   question: Do you prefer pizza or tacos?
+  answers:
+  - Worms
+  - Putty
+  - Stained Glass
+  - Pterodactyls
+  correctAnswerIndex: 0

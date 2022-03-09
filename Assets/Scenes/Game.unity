@@ -257,6 +257,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72434780}
   m_CullTransparentMesh: 1
+--- !u!1 &338471110 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7719519574972047427, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
+  m_PrefabInstance: {fileID: 1881185551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &424338122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7719519574972047427, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
+  m_PrefabInstance: {fileID: 2609956546128430436}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &573284266
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,6 +592,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7387093537527389449, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
+      propertyPath: m_text
+      value: Sandwich
+      objectReference: {fileID: 0}
     - target: {fileID: 7719519574972047427, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
       propertyPath: m_Name
       value: AnswerButton (3)
@@ -668,6 +682,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150906106}
   m_CullTransparentMesh: 1
+--- !u!1 &1297161687 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7719519574972047427, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
+  m_PrefabInstance: {fileID: 891165596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1391132250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7719519574972047427, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
+  m_PrefabInstance: {fileID: 1538306970}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1538306970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -758,6 +782,10 @@ PrefabInstance:
     - target: {fileID: 4469292280759989833, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7387093537527389449, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
+      propertyPath: m_text
+      value: Chicken
       objectReference: {fileID: 0}
     - target: {fileID: 7719519574972047427, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
       propertyPath: m_Name
@@ -961,6 +989,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionText: {fileID: 573284268}
   question: {fileID: 11400000, guid: 152f6c1428c7c213bb89e1bf8e11b53b, type: 2}
+  answerButtons:
+  - {fileID: 424338122}
+  - {fileID: 338471110}
+  - {fileID: 1391132250}
+  - {fileID: 1297161687}
 --- !u!1 &1583564888
 GameObject:
   m_ObjectHideFlags: 0
@@ -1236,6 +1269,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7387093537527389449, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
+      propertyPath: m_text
+      value: A
+      objectReference: {fileID: 0}
     - target: {fileID: 7719519574972047427, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
       propertyPath: m_Name
       value: AnswerButton (1)
@@ -1469,6 +1506,10 @@ PrefabInstance:
     - target: {fileID: 4469292280759989833, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7387093537527389449, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
+      propertyPath: m_text
+      value: Buy
       objectReference: {fileID: 0}
     - target: {fileID: 7719519574972047427, guid: e176f96085f57cd87ab561157f75d2b3, type: 3}
       propertyPath: m_Name
